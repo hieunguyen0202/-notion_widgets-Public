@@ -16,6 +16,7 @@ body {
   width: 360px;
   border-radius: 24px;
   padding: 28px;
+  border: 2px solid #000; /* viền ngoài màu đen */
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
