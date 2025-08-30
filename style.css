@@ -13,7 +13,7 @@ body {
 
 .clock-container {
   background-color: #fff;
-  width: 380px;
+  width: 360px;
   border-radius: 24px;
   padding: 28px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* soft shadow */
@@ -40,6 +40,13 @@ body {
   margin-bottom: 16px;
 }
 
+#display-controls {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
 button {
   background-color: #fff;
   color: #111;
@@ -64,12 +71,9 @@ button:hover {
 .length-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 16px;
-  margin-top: 12px;
+  gap: 12px;
 }
 
-/* Break & session length boxes */
 .break-container, 
 .session-container {
   flex: 1;
@@ -90,18 +94,4 @@ button:hover {
   justify-content: center;
   gap: 10px;
   margin-top: 6px;
-}
-
-/* 🔥 Put Play & Reset in the same row with break/session */
-#display-controls {
-  display: flex;
-  gap: 12px;
-}
-
-.controls-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 12px;
-  margin-top: 18px;
 }
