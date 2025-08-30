@@ -2,8 +2,8 @@
 
 body {
   font-family: 'Roboto Mono', monospace;
-  background-color: #fff;   /* white background */
-  color: #222;              /* soft black text */
+  background-color: #fff;
+  color: #222;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +16,7 @@ body {
   width: 360px;
   border-radius: 24px;
   padding: 28px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* soft shadow */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
 #time-left {
@@ -30,21 +30,24 @@ body {
   margin-bottom: 12px;
 }
 
+.top-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 #timer-label {
   font-size: 20px;
-  text-align: center;
-  padding: 10px;
+  padding: 8px 16px;
   background-color: #f1f1f1;
   color: #444;
   border-radius: 10px;
-  margin-bottom: 16px;
 }
 
-#display-controls {
+#timer-ssr {
   display: flex;
-  justify-content: center;
-  gap: 16px;
-  margin-bottom: 20px;
+  gap: 12px;
 }
 
 button {
